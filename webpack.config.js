@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   entry: {
-    bundle: './src/indes.ts'
+    bundle: './src/index.ts'
   },
   output: {
     path: path.join(__dirname, 'dist'),
